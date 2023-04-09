@@ -1,0 +1,127 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(./images/bg-desktop.svg) no-repeat center;
+  background-size: cover;
+  background-color: var(--cor-primaria);
+  color: var(--fonte-cor);
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "aside section"
+  "footer footer";
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 40px;
+  align-self: center;
+}
+
+
+/* HEADER */
+
+header {
+  grid-area: header;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 150px;
+}
+
+/* ASIDE */
+
+aside {
+  grid-area: aside;
+  align-self: center;
+}
+
+/* SECTION */
+
+section {
+  grid-area: section;
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  align-content: center;
+}
+
+section .esquerda {
+  margin-right: 22px;
+}
+
+
+section nav .esquerda {
+  width: 500px;
+}
+
+section .direita {
+  margin-left: 22px;
+}
+
+section .direita h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+section .direita p {
+  margin: 20px 0;
+}
+
+section button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: var(--cor-primaria);
+  font-size: 1.6rem;
+  padding: 12px 50px;
+  transition: 0.3s;
+  background-color: var(--fonte-cor);
+  box-shadow: rgba(7, 7, 7, 0.731) 2px 3px 5px;
+  border-radius: 50px;
+}
+
+section button:hover {
+  background-color: var(--cor-leve);
+  color: var(--fonte-cor);
+}
+
+
+/* FOOTER */
+
+footer {
+  grid-area: footer;
+  display: flex;
+  transition: 0.3s;
+  justify-self: end;
+  margin-top: 30px;
+  font-size: 1.25rem;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+footer a i {
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 5px;
+  color: var(--fonte-cor);
+  margin: 6px;
+}
+
+footer i:hover {
+  color: var(--cor-leve);
+}
+
+footer ul li a i {
+  padding: 6px 6px 0 6px;
+  width: 25px;
+  height: 25px;
+}
+

@@ -1,0 +1,53 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px */
+
+
+@media(max-width: 425px) {
+  body {
+    background: url(./images/bg-mobile.svg) no-repeat top var(--cor-primaria);
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    min-width: 273px;
+  }
+
+  body header {
+    justify-self: left;
+  }
+
+  section button{
+    display: flex;
+
+  }
+
+
+
+
+
+
+
+
+}
+
+/*- Desktop: 1440px */
+
+@media(min-width: 900px) {
+
+  header img {
+    width: 200px;
+  }
+
+  .direita .esquerda{
+    max-width: 1440px;
+    height: 100hv;
+    margin: 30%;
+    justify-self: center;
+  }
+}
