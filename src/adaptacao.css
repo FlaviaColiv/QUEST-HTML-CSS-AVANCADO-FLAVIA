@@ -1,11 +1,4 @@
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px */
-
+/* Mobile */
 
 @media(max-width: 425px) {
   body {
@@ -13,30 +6,39 @@ The designs were created to the following widths:
     display: flex;
     flex-direction: column;   
     align-items: center;
-    align-content: center;
-    justify-self: center;
+    text-align: center;
     min-width: 273px;
+    font-size: 1.58rem;
+    margin: 8%;
+    gap:  20px;
   }
 
-  body header {
-    justify-self: left;
+  header {
+    margin-bottom: 25px;
+    margin-left: -50%;
   }
 
-  section button{
-    display: flex;
-
+  aside .esquerda {
+    margin-bottom: 45px;
   }
 
+  section .direita h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
 
+  section button {
+    margin-top: 10px;
+    padding: 10px 70px;
+  }
 
-
-
-
-
-
+  footer {
+    margin-top: 40px;
+  }
 }
 
-/*- Desktop: 1440px */
+/*Desktop */
 
 @media(min-width: 900px) {
 

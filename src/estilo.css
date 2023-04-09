@@ -20,7 +20,6 @@ body {
   align-self: center;
 }
 
-
 /* HEADER */
 
 header {
@@ -49,12 +48,11 @@ section {
   align-content: center;
 }
 
-section .esquerda {
+aside .esquerda {
   margin-right: 22px;
 }
 
-
-section nav .esquerda {
+aside nav .esquerda {
   width: 500px;
 }
 
@@ -89,7 +87,6 @@ section button:hover {
   color: var(--fonte-cor);
 }
 
-
 /* FOOTER */
 
 footer {
@@ -105,7 +102,6 @@ footer ul {
   display: flex;
   flex-direction: row;
 }
-
 
 footer a i {
   border: solid 1px;
