@@ -2,7 +2,7 @@
 
 ## Landing page
 
-<a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0" target="_blank"> Projeto do Site: Front end Mentor </a>
+<a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0" target="_blank"> Projeto do Site: Frontend Mentor </a>
 
 <br>
 
